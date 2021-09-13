@@ -1,0 +1,33 @@
+{
+  "name": "goit-node-hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index",
+    "start:list": "node index -a list",
+    "start:get": "node index -a get -i",
+    "start:add": "node index -a add",
+    "start:remove": "node index -a remove -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBord/goit-node-hw1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBord/goit-node-hw1/issues"
+  },
+  "homepage": "https://github.com/RBord/goit-node-hw1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "uuidv4": "^6.2.12"
+  }
+}
